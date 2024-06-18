@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+        
+
+        var name,
+        itemreq,
+        numitems;
+
+        today = new Date();
+        today.getDay(); 
+        shipdate = new Date();
+        shipdate.setDate(today.getDate() + 7); 
+
+        window.alert("HI welcome to the store today is " + today);
+
+        name = window.prompt("whats ur name?");
+        document.writeln("<h3> Hi " +  name);
+
+        itemreq = window.prompt("what item do you want?")
+       
+        numitems = window.prompt("how many?")
+
+        document.writeln("<h3> you want " +  numitems + " , " + itemreq);
+        document.writeln( "  items will ship :  " + shipdate );
+
+
+
+
+    </script>
+</head>
+<body>
+    
+
+
+
+
+</body>
+</html>
