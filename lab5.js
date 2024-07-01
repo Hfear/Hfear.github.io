@@ -34,8 +34,12 @@ function submitform(event){
             //document.write(`bad form`);
             
         }
+        else
+        {
+            showform(); 
+        }
 
-        showform(); 
+        
     
 }
 
@@ -49,24 +53,25 @@ function validateform(){
     //getting the object of formanswers and using for each method
     Object.values(formAnswers).forEach(val => {
 
-         if (val == "")
+         if (val === "")
             {
                 error = "You havent filled evrything out";
             }   
     } );
 
     //password has special character ! or ?
- if(!formAnswers.password.includes('!') || !formAnswers.password.includes('?'))
+ if(!formAnswers.password.includes('!') && !formAnswers.password.includes('?'))
  {
     error = "password needs special character";
  }
 
- if(error = "")
+ if(error === "")
     {
         return true ;
     }
     else
     {
+        alert(error);
             return false; 
     }
 
@@ -94,16 +99,6 @@ document.getElementById("displaypg").innerHTML =
 `;
 
 
-    // ${} allows u to display js variables :0
 
-//    document.write(`   
-//         <h3>Sucessful Submitted Form :</h3>
-//         <p><strong>First:</strong> ${formAnswers.firstname}</p>
-//         <p><strong>Last:</strong> ${formAnswers.lastname}</p>
-//         <p><strong>Email:</strong> ${formAnswers.email}</p>
-//         <p><strong>Password:</strong> ${hiddenpass}</p>
-//         <p><strong>Date of Birth:</strong> ${formAnswers.dob}</p>
-//    `);
-   
 
 }
