@@ -29,14 +29,13 @@ function submitform(event){
 
     console.log(formAnswers);
 
-    if(validateform()) //validated
+    if(!validateform()) //not validated
         {
-            showform(); 
+            //document.write(`bad form`);
+            
         }
-    else //reload page retry 
-    {
 
-    }
+        showform(); 
     
 }
 
@@ -83,17 +82,28 @@ var hiddenpass = "";
        hiddenpass +="*"; 
     }
  
+document.getElementById("displaypg").innerHTML = 
+`      
+       <h3>Sucessful Submitted Form :</h3>
+       <p><strong>First:</strong> ${formAnswers.firstname}</p>
+       <p><strong>Last:</strong> ${formAnswers.lastname}</p>
+       <p><strong>Email:</strong> ${formAnswers.email}</p>
+       <p><strong>Password:</strong> ${hiddenpass}</p>
+       <p><strong>Date of Birth:</strong> ${formAnswers.dob}</p>
+ 
+`;
+
 
     // ${} allows u to display js variables :0
 
-   document.write(`   
-        <h3>Sucessful Submitted Form :</h3>
-        <p><strong>First:</strong> ${formAnswers.firstname}</p>
-        <p><strong>Last:</strong> ${formAnswers.lastname}</p>
-        <p><strong>Email:</strong> ${formAnswers.email}</p>
-        <p><strong>Password:</strong> ${hiddenpass}</p>
-        <p><strong>Date of Birth:</strong> ${formAnswers.dob}</p>
-   `);
+//    document.write(`   
+//         <h3>Sucessful Submitted Form :</h3>
+//         <p><strong>First:</strong> ${formAnswers.firstname}</p>
+//         <p><strong>Last:</strong> ${formAnswers.lastname}</p>
+//         <p><strong>Email:</strong> ${formAnswers.email}</p>
+//         <p><strong>Password:</strong> ${hiddenpass}</p>
+//         <p><strong>Date of Birth:</strong> ${formAnswers.dob}</p>
+//    `);
    
 
 }
