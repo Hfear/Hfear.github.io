@@ -89,13 +89,29 @@ var hiddenpass = "";
  
 document.getElementById("displaypg").innerHTML = 
 `      
+
+<div class = "mx-auto p-3">
+
+    <figure class="text-center">
+        <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">THANKS FOR THE INFO </h1>
+            <p class="lead"> You will recive notice in 6-12 business months </p>
+        </div>
+        </div>
+    </figure>
+
+    
+     <div mx-auto p-3>
        <h3>Sucessful Submitted Form :</h3>
        <p><strong>First:</strong> ${formAnswers.firstname}</p>
        <p><strong>Last:</strong> ${formAnswers.lastname}</p>
        <p><strong>Email:</strong> ${formAnswers.email}</p>
        <p><strong>Password:</strong> ${hiddenpass}</p>
        <p><strong>Date of Birth:</strong> ${formAnswers.dob}</p>
- 
+     </div>
+
+       <div>
 `;
 
 
