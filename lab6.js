@@ -12,9 +12,15 @@
 //get from json file and parse object
 async function Getcatfacts(){
 
-    //goes into my local file and jets the json information
-    //these are where the promises come and wait for the json to send
-    await fetch('./lab6cats.json')
+
+    const url = 'https://brianobruno.github.io/cats.json';
+    const options = 
+        {
+          method: 'GET',
+        };
+
+    const response = await fetch(url, options)
+
 
     //when u get the response and parse it automatically 
     .then((response) => response.json())
@@ -60,11 +66,11 @@ function Postcatfacts(){
             //add row w two cols
             var newrow = document.createElement('div');
             newrow.innerHTML = (` 
-            <div class="column"> ${fact.factId}</div>
-            <div class="column"> ${fact.text}</div>
+            <div class="column col-3"> ${fact.factId}</div>
+            <div class="column col-9"> ${fact.text}</div>
                 `);
 
-             newrow.className = "row row-cols-2";
+             newrow.className = "row row-cols-2 p-3";
 
             factchart.append(newrow);
 
