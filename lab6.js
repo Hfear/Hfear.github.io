@@ -68,7 +68,5 @@ function Postcatfacts(){
 
             factchart.append(newrow);
 
-           
-          
         }
 }

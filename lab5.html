@@ -22,6 +22,7 @@ crossorigin="anonymous"></script>
         <blockquote class="blockquote">
           <p>Give me your information</p>
         </blockquote>
+        
         <figcaption class="blockquote-footer">
           Someone really <cite title="Source Title">trustworthy</cite>
         </figcaption>
@@ -37,6 +38,36 @@ crossorigin="anonymous"></script>
       </div>
 
 
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="my-3 col-12 col-md-4 ">
+            
+      <form id="myform">
+
+        <label for="fname" class="form-label">First name:</label><br>
+        <input type="text" id="fname" name="firstname"><br>
+        
+        <label for="lname" class="form-label">Last name:</label><br>
+        <input type="text" id="lname" name="lastname" ><br>
+
+        <label for="email" class="form-label">Email:</label><br>
+        <input type="text" id="email" name="email" ><br>
+        
+        <label for="pass" class="form-label">Password :</label><br>
+        <input type="text" id="pass" name="pass" ><br>
+
+        <label for="dob" class="form-label">Date of Birth :</label>
+        <input type="date" class="form-control" id="dob" name="dob"><br>
+        
+      </form>
+
+      <button class = " " onclick = "submitform()"> Submit Form </button>
+
+    </div>
+  </div>
+</div>
+
+<!-- My first form that uses events and bootstraps form
     <form id="regform" onsubmit="submitform(event)">
         <div class="grid gap-3 m-3">
             <div class="mb-3">
@@ -53,7 +84,7 @@ crossorigin="anonymous"></script>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="email" name="email" >
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
@@ -62,6 +93,7 @@ crossorigin="anonymous"></script>
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </form>
+-->
 
 </div>
 
