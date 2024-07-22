@@ -15,7 +15,7 @@ var ALLbirdIds = [];
 // https://api.iucnredlist.org/api/v4/comprehensive_groups/birds
 async function GetAllBirds()
 {
-    let url = 'https://api.iucnredlist.org/api/v4/comprehensive_groups/birds';
+    let url = 'http://localhost:4000/api/api/v4/comprehensive_groups/birds';
     
     try {
 
