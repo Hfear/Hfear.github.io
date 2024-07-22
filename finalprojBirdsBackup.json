@@ -1,0 +1,1511 @@
+{
+    "comprehensive_group": {
+        "high": true,
+        "comp": true,
+        "name": "birds",
+        "higher_name": "birds"
+    },
+    "assessments": [
+        {
+            "year_published": null,
+            "latest": false,
+            "sis_taxon_id": 22700123,
+            "url": "https://www.iucnredlist.org/species/22700123/118650472",
+            "assessment_id": 118650472,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22726477,
+            "url": "https://www.iucnredlist.org/species/22726477/243674795",
+            "assessment_id": 243674795,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 103707799,
+            "url": "https://www.iucnredlist.org/species/103707799/226684147",
+            "assessment_id": 226684147,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22691037,
+            "url": "https://www.iucnredlist.org/species/22691037/218088160",
+            "assessment_id": 218088160,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22702085,
+            "url": "https://www.iucnredlist.org/species/22702085/242691239",
+            "assessment_id": 242691239,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22691900,
+            "url": "https://www.iucnredlist.org/species/22691900/226280431",
+            "assessment_id": 226280431,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22702156,
+            "url": "https://www.iucnredlist.org/species/22702156/235928752",
+            "assessment_id": 235928752,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22685422,
+            "url": "https://www.iucnredlist.org/species/22685422/207890462",
+            "assessment_id": 207890462,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22681585,
+            "url": "https://www.iucnredlist.org/species/22681585/241500854",
+            "assessment_id": 241500854,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 230025085,
+            "url": "https://www.iucnredlist.org/species/230025085/231652448",
+            "assessment_id": 231652448,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22718899,
+            "url": "https://www.iucnredlist.org/species/22718899/240688700",
+            "assessment_id": 240688700,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 230026276,
+            "url": "https://www.iucnredlist.org/species/230026276/154673176",
+            "assessment_id": 154673176,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22686054,
+            "url": "https://www.iucnredlist.org/species/22686054/221180325",
+            "assessment_id": 221180325,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 45470698,
+            "url": "https://www.iucnredlist.org/species/45470698/228208139",
+            "assessment_id": 228208139,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22697713,
+            "url": "https://www.iucnredlist.org/species/22697713/232128569",
+            "assessment_id": 232128569,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22697721,
+            "url": "https://www.iucnredlist.org/species/22697721/229597779",
+            "assessment_id": 229597779,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22679023,
+            "url": "https://www.iucnredlist.org/species/22679023/218986253",
+            "assessment_id": 218986253,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22683135,
+            "url": "https://www.iucnredlist.org/species/22683135/234032210",
+            "assessment_id": 234032210,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 103702904,
+            "url": "https://www.iucnredlist.org/species/103702904/220281442",
+            "assessment_id": 220281442,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 103780078,
+            "url": "https://www.iucnredlist.org/species/103780078/241563797",
+            "assessment_id": 241563797,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 103780109,
+            "url": "https://www.iucnredlist.org/species/103780109/241570030",
+            "assessment_id": 241570030,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 103780103,
+            "url": "https://www.iucnredlist.org/species/103780103/241594199",
+            "assessment_id": 241594199,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22698656,
+            "url": "https://www.iucnredlist.org/species/22698656/230914643",
+            "assessment_id": 230914643,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 229728866,
+            "url": "https://www.iucnredlist.org/species/229728866/240503382",
+            "assessment_id": 240503382,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22685486,
+            "url": "https://www.iucnredlist.org/species/22685486/241241739",
+            "assessment_id": 241241739,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 230024402,
+            "url": "https://www.iucnredlist.org/species/230024402/231051365",
+            "assessment_id": 231051365,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 230027154,
+            "url": "https://www.iucnredlist.org/species/230027154/234712764",
+            "assessment_id": 234712764,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22697685,
+            "url": "https://www.iucnredlist.org/species/22697685/224541343",
+            "assessment_id": 224541343,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22686555,
+            "url": "https://www.iucnredlist.org/species/22686555/241151334",
+            "assessment_id": 241151334,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 103702845,
+            "url": "https://www.iucnredlist.org/species/103702845/223102843",
+            "assessment_id": 223102843,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22695494,
+            "url": "https://www.iucnredlist.org/species/22695494/230038665",
+            "assessment_id": 230038665,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22707151,
+            "url": "https://www.iucnredlist.org/species/22707151/154681084",
+            "assessment_id": 154681084,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22711939,
+            "url": "https://www.iucnredlist.org/species/22711939/154683394",
+            "assessment_id": 154683394,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22697658,
+            "url": "https://www.iucnredlist.org/species/22697658/228020407",
+            "assessment_id": 228020407,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22702968,
+            "url": "https://www.iucnredlist.org/species/22702968/234798065",
+            "assessment_id": 234798065,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 62290488,
+            "url": "https://www.iucnredlist.org/species/62290488/209661225",
+            "assessment_id": 209661225,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22710482,
+            "url": "https://www.iucnredlist.org/species/22710482/221514785",
+            "assessment_id": 221514785,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22724390,
+            "url": "https://www.iucnredlist.org/species/22724390/226422700",
+            "assessment_id": 226422700,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22688718,
+            "url": "https://www.iucnredlist.org/species/22688718/229775192",
+            "assessment_id": 229775192,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22688713,
+            "url": "https://www.iucnredlist.org/species/22688713/229809425",
+            "assessment_id": 229809425,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22688441,
+            "url": "https://www.iucnredlist.org/species/22688441/230036968",
+            "assessment_id": 230036968,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 229725407,
+            "url": "https://www.iucnredlist.org/species/229725407/239585961",
+            "assessment_id": 239585961,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22710502,
+            "url": "https://www.iucnredlist.org/species/22710502/218364362",
+            "assessment_id": 218364362,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22714797,
+            "url": "https://www.iucnredlist.org/species/22714797/222786975",
+            "assessment_id": 222786975,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22705579,
+            "url": "https://www.iucnredlist.org/species/22705579/223222278",
+            "assessment_id": 223222278,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22685029,
+            "url": "https://www.iucnredlist.org/species/22685029/226300785",
+            "assessment_id": 226300785,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22693570,
+            "url": "https://www.iucnredlist.org/species/22693570/233933855",
+            "assessment_id": 233933855,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22692438,
+            "url": "https://www.iucnredlist.org/species/22692438/210643971",
+            "assessment_id": 210643971,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22692920,
+            "url": "https://www.iucnredlist.org/species/22692920/218635331",
+            "assessment_id": 218635331,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22720742,
+            "url": "https://www.iucnredlist.org/species/22720742/222477278",
+            "assessment_id": 222477278,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22720756,
+            "url": "https://www.iucnredlist.org/species/22720756/223174818",
+            "assessment_id": 223174818,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22728299,
+            "url": "https://www.iucnredlist.org/species/22728299/223256080",
+            "assessment_id": 223256080,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22708579,
+            "url": "https://www.iucnredlist.org/species/22708579/224016232",
+            "assessment_id": 224016232,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22736440,
+            "url": "https://www.iucnredlist.org/species/22736440/224140553",
+            "assessment_id": 224140553,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22736432,
+            "url": "https://www.iucnredlist.org/species/22736432/224210872",
+            "assessment_id": 224210872,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22736423,
+            "url": "https://www.iucnredlist.org/species/22736423/224391681",
+            "assessment_id": 224391681,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22684697,
+            "url": "https://www.iucnredlist.org/species/22684697/225945993",
+            "assessment_id": 225945993,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22727465,
+            "url": "https://www.iucnredlist.org/species/22727465/226007359",
+            "assessment_id": 226007359,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22684675,
+            "url": "https://www.iucnredlist.org/species/22684675/227067830",
+            "assessment_id": 227067830,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22710562,
+            "url": "https://www.iucnredlist.org/species/22710562/228670436",
+            "assessment_id": 228670436,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22705972,
+            "url": "https://www.iucnredlist.org/species/22705972/229763967",
+            "assessment_id": 229763967,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 103866352,
+            "url": "https://www.iucnredlist.org/species/103866352/232248281",
+            "assessment_id": 232248281,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22703058,
+            "url": "https://www.iucnredlist.org/species/22703058/233142942",
+            "assessment_id": 233142942,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22686450,
+            "url": "https://www.iucnredlist.org/species/22686450/234728788",
+            "assessment_id": 234728788,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22689670,
+            "url": "https://www.iucnredlist.org/species/22689670/227711682",
+            "assessment_id": 227711682,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 229729434,
+            "url": "https://www.iucnredlist.org/species/229729434/230012326",
+            "assessment_id": 230012326,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 230037720,
+            "url": "https://www.iucnredlist.org/species/230037720/230850193",
+            "assessment_id": 230850193,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22686543,
+            "url": "https://www.iucnredlist.org/species/22686543/231293556",
+            "assessment_id": 231293556,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22689594,
+            "url": "https://www.iucnredlist.org/species/22689594/231311672",
+            "assessment_id": 231311672,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22689997,
+            "url": "https://www.iucnredlist.org/species/22689997/231675427",
+            "assessment_id": 231675427,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22715642,
+            "url": "https://www.iucnredlist.org/species/22715642/232395017",
+            "assessment_id": 232395017,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 232736915,
+            "url": "https://www.iucnredlist.org/species/232736915/233337205",
+            "assessment_id": 233337205,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22714275,
+            "url": "https://www.iucnredlist.org/species/22714275/208240942",
+            "assessment_id": 208240942,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22689539,
+            "url": "https://www.iucnredlist.org/species/22689539/227316153",
+            "assessment_id": 227316153,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22679869,
+            "url": "https://www.iucnredlist.org/species/22679869/228564177",
+            "assessment_id": 228564177,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22679919,
+            "url": "https://www.iucnredlist.org/species/22679919/228668766",
+            "assessment_id": 228668766,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22704799,
+            "url": "https://www.iucnredlist.org/species/22704799/230582563",
+            "assessment_id": 230582563,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 230035307,
+            "url": "https://www.iucnredlist.org/species/230035307/230866090",
+            "assessment_id": 230866090,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 232637243,
+            "url": "https://www.iucnredlist.org/species/232637243/232752892",
+            "assessment_id": 232752892,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 232637624,
+            "url": "https://www.iucnredlist.org/species/232637624/232767305",
+            "assessment_id": 232767305,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22714258,
+            "url": "https://www.iucnredlist.org/species/22714258/234662972",
+            "assessment_id": 234662972,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22722388,
+            "url": "https://www.iucnredlist.org/species/22722388/239850973",
+            "assessment_id": 239850973,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22688614,
+            "url": "https://www.iucnredlist.org/species/22688614/231090375",
+            "assessment_id": 231090375,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22688602,
+            "url": "https://www.iucnredlist.org/species/22688602/231336941",
+            "assessment_id": 231336941,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22698648,
+            "url": "https://www.iucnredlist.org/species/22698648/231714639",
+            "assessment_id": 231714639,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22725127,
+            "url": "https://www.iucnredlist.org/species/22725127/233595800",
+            "assessment_id": 233595800,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 230050796,
+            "url": "https://www.iucnredlist.org/species/230050796/231645908",
+            "assessment_id": 231645908,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22684668,
+            "url": "https://www.iucnredlist.org/species/22684668/225963175",
+            "assessment_id": 225963175,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22688656,
+            "url": "https://www.iucnredlist.org/species/22688656/226893897",
+            "assessment_id": 226893897,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22706815,
+            "url": "https://www.iucnredlist.org/species/22706815/228088307",
+            "assessment_id": 228088307,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22695706,
+            "url": "https://www.iucnredlist.org/species/22695706/230531967",
+            "assessment_id": 230531967,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 103840020,
+            "url": "https://www.iucnredlist.org/species/103840020/239355741",
+            "assessment_id": 239355741,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22728242,
+            "url": "https://www.iucnredlist.org/species/22728242/215996508",
+            "assessment_id": 215996508,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22711192,
+            "url": "https://www.iucnredlist.org/species/22711192/225231389",
+            "assessment_id": 225231389,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22701563,
+            "url": "https://www.iucnredlist.org/species/22701563/239288893",
+            "assessment_id": 239288893,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22726346,
+            "url": "https://www.iucnredlist.org/species/22726346/226510905",
+            "assessment_id": 226510905,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22686168,
+            "url": "https://www.iucnredlist.org/species/22686168/234610243",
+            "assessment_id": 234610243,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22735635,
+            "url": "https://www.iucnredlist.org/species/22735635/239092448",
+            "assessment_id": 239092448,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22685994,
+            "url": "https://www.iucnredlist.org/species/22685994/239263382",
+            "assessment_id": 239263382,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "year_published": "2023",
+            "latest": true,
+            "sis_taxon_id": 22735207,
+            "url": "https://www.iucnredlist.org/species/22735207/239283524",
+            "assessment_id": 239283524,
+            "scopes": [
+                {
+                    "description": {
+                        "en": "Global"
+                    },
+                    "code": "1"
+                }
+            ]
+        }
+    ],
+    "filters": {}
+}
