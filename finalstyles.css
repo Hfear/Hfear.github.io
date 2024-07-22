@@ -11,3 +11,14 @@ body {
     transform: scale(1.05);
     background-color: rgb(96, 210, 178);
 }
+
+#slides{
+    background-color: rgb(143, 186, 172);
+    box-shadow: 0 5px 11px rgba(0, 0, 0, 0.6);
+    padding: 2px;
+}
+
+#pathbtn{
+    background-color: rgb(244, 255, 244);
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.068);
+}

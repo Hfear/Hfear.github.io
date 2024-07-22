@@ -216,13 +216,18 @@ function displayBirds(birds)
             for( var bird of birds)
                 {
                     //console.log(bird);
+                    //first common name for title
                 var title = bird.taxon.common_names[0].name
-                    //add row w two cols
 
+                //list of common names for card
+                var commonNames = bird.taxon.common_names.map(name => name.name).join(', ');
+
+                    //add row w two cols
+                    
                     var newrow = document.createElement('div');
 
                     newrow.innerHTML = (` 
-                        <div class="card" id = "birdcard" style="width: 18rem;">
+                        <div class="card p-3" id = "birdcard" style="width: 18rem;">
                         
                         <a onclick = DisplaySingleBird(bird)>
 
@@ -241,7 +246,7 @@ function displayBirds(birds)
                             </li>
                            
                             <li class="list-group-item">
-                            <strong>Common Names:</strong> ${bird.taxon.common_names.map(name => name.name).join(', ')}
+                            <strong>Common Names:</strong> ${commonNames}
                             </li>
                            
                             <li class="list-group-item">
@@ -282,22 +287,30 @@ function DisplaySingleBird(bird)
      
                    //add row w two cols
                    var newrow = document.createElement('div');
+
+                   //concat array of common names between comma 
+                   var commonNames = bird.taxon.common_names.map(name => name.name).join(', ');
+
+
+                   //bootstraps card outline
+                   //get variable from bird object if value is not there use NA
                    newrow.innerHTML = (` 
                        <div class="card" style="width: 100%; max-width: 800px;">
 
             <div class="card-header">
-                <h5>${title}</h5>
-                <small><a href="${bird.url}" target="_blank">IUCN Red List Link</a></small>
+                <h1>${title}</h1>
+                <small><a href="${bird.url}" target="_blank">The page on IUCN Red List! </a></small>
             </div>
             <div class="card-body">
                 <h5>General Information</h5>
                 <p><strong>
                 Bird ID:</strong> ${bird.assessment_id}</p>
-                <p><strong>Scientific Name:</strong> ${bird.taxon.scientific_name}</p>
-                <p><strong>Common Names:</strong> ${bird.taxon.common_names.map(name => name.name).join(', ')}</p>
+                <p><strong>Scientific Name :</strong> ${bird.taxon.scientific_name}</p>
+                <p><strong>Common Names:</strong> ${commonNames}</p>
                 <p><strong>Status:</strong> ${bird.red_list_category.description.en }</p>
 
                 <h6>Taxonomy</h6>
+
                 <p><strong>Kingdom:</strong> ${bird.taxon.kingdom_name}</p>
                 <p><strong>Phylum:</strong> ${bird.taxon.phylum_name}</p>
                 <p><strong>Class:</strong> ${bird.taxon.class_name}</p>
@@ -322,8 +335,6 @@ function DisplaySingleBird(bird)
                 <p><strong>Trend Justification:</strong> ${bird.documentation.trend_justification || 'N/A'}</p>
                 <p><strong>Taxonomic Notes:</strong> ${bird.documentation.taxonomic_notes || 'N/A'}</p>
 
-                <h5>Additional Information</h5>
-                <p><strong>Biogeographical Realms:</strong> ${bird.biogeographical_realms.map(realm => realm.description.en).join(', ') || 'N/A'}</p>
             </div>
         </div>
         `);
