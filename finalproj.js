@@ -22,21 +22,23 @@ var chilling = [];
 //GET function for all bird ids
 // https://api.iucnredlist.org/api/v4/comprehensive_groups/birds
 async function GetAllBirds() {
-    let url = './finalprojBirdsBackup.json'; 
-    
+    const myHeaders = new Headers();
+    myHeaders.append("Authorization", "MuBZRdQNvyT33yyh6yXi9HSbnS2j4qwFMzGD");
+
+    const requestOptions = {
+        method: "GET",
+        headers: myHeaders,
+        redirect: "follow"
+    };
+
     try {
-        const response = await fetch(url, {
-            method: 'GET'
-        });
+        const response = await fetch("https://api.iucnredlist.org/api/v4/comprehensive_groups/birds", requestOptions);
 
         if (!response.ok) {
             throw new Error(`ERROR: ${response.statusText}`);
         }
 
-        const data = await response.json();
-
-        const assessments = data.assessments;
-
+        //checkin if array 
         if (Array.isArray(assessments)) {
 
             // taking ids from the assessments part og the arry 
