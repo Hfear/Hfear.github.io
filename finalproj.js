@@ -24,36 +24,46 @@ var chilling = [];
 async function GetAllBirds() 
 {
 
-        const myHeaders = new Headers();
+    const myHeaders = new Headers();
     myHeaders.append("Authorization", "MuBZRdQNvyT33yyh6yXi9HSbnS2j4qwFMzGD");
 
-    const raw = "";
-
     const requestOptions = {
-    method: "GET",
-    headers: myHeaders,
-    redirect: "manual"
+        method: "GET",
+        headers: myHeaders,
+        redirect: "follow"
     };
+
+    //giving up and using a proxy site 
+    const corsProxy = "https://cors-anywhere.herokuapp.com/"; 
+    const apiURL = "https://api.iucnredlist.org/api/v4/comprehensive_groups/birds";
 
     try {
-    const response = await fetch("https://api.iucnredlist.org/api/v4/comprehensive_groups/birds", requestOptions);
-    const result = await response.text();
-    console.log(result)
-    } catch (error) {
-    console.error(error);
-    };
-
-        //checkin if array 
-        if (Array.isArray(assessments)) {
-
-            // taking ids from the assessments part og the arry 
-            ALLbirdIds = assessments.map(assessment => assessment.assessment_id);
-
-            //console.log('All Bird IDs:', ALLbirdIds);
-
-        } else {
-            throw new Error('Assessments is not an array or is missing.');
+        // adding the proxy to get arounf the cors 
+        const response = await fetch(corsProxy + apiURL, requestOptions);
+        
+        if (!response.ok) {
+            throw new Error(`ERROR: ${response.statusText}`);
         }
+
+        const data = await response.json();
+        const assessments = data.assessments;
+
+    //checkin if array 
+    if (Array.isArray(assessments)) {
+
+        // taking ids from the assessments part og the arry 
+        ALLbirdIds = assessments.map(assessment => assessment.assessment_id);
+
+        //console.log('All Bird IDs:', ALLbirdIds);
+
+    } else {
+        throw new Error('not array.');
+    }
+
+    } catch (error) {
+        console.error(error);
+    }
+       
     
 }
 
