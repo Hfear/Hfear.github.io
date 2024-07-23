@@ -25,6 +25,8 @@ async function GetAllBirds() {
     const myHeaders = new Headers();
     myHeaders.append("Authorization", "MuBZRdQNvyT33yyh6yXi9HSbnS2j4qwFMzGD");
 
+    console.log("new cors save");
+
     const requestOptions = {
         method: "GET",
         headers: myHeaders,
