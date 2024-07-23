@@ -21,24 +21,27 @@ var chilling = [];
 
 //GET function for all bird ids
 // https://api.iucnredlist.org/api/v4/comprehensive_groups/birds
-async function GetAllBirds() {
-    const myHeaders = new Headers();
+async function GetAllBirds() 
+{
+
+        const myHeaders = new Headers();
     myHeaders.append("Authorization", "MuBZRdQNvyT33yyh6yXi9HSbnS2j4qwFMzGD");
 
-    console.log("new cors save");
+    const raw = "";
 
     const requestOptions = {
-        method: "GET",
-        headers: myHeaders,
-        redirect: "follow"
+    method: "GET",
+    headers: myHeaders,
+    redirect: "manual"
     };
 
     try {
-        const response = await fetch("https://api.iucnredlist.org/api/v4/comprehensive_groups/birds", requestOptions);
-
-        if (!response.ok) {
-            throw new Error(`ERROR: ${response.statusText}`);
-        }
+    const response = await fetch("https://api.iucnredlist.org/api/v4/comprehensive_groups/birds", requestOptions);
+    const result = await response.text();
+    console.log(result)
+    } catch (error) {
+    console.error(error);
+    };
 
         //checkin if array 
         if (Array.isArray(assessments)) {
@@ -52,10 +55,6 @@ async function GetAllBirds() {
             throw new Error('Assessments is not an array or is missing.');
         }
     
-    } catch (error) 
-    { // gets error from else n dispkays in console
-        console.error(error);
-    }
 }
 
 //tESTING ITTTTTT
@@ -350,6 +349,7 @@ function DisplaySingleBird(bird)
                
 }
 
+//making all one pg
 function hideFrontPage()
 {
     frontpg = 1; 
