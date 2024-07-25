@@ -23,36 +23,48 @@ var chilling = [];
 // https://api.iucnredlist.org/api/v4/comprehensive_groups/birds
 async function GetAllBirds() 
 {
-    let url = './finalprojBirdsBackup.json'; 
-    
-    try {
-        const response = await fetch(url, {
-            method: 'GET'
-        });
 
+    const myHeaders = new Headers();
+    myHeaders.append("Authorization", "MuBZRdQNvyT33yyh6yXi9HSbnS2j4qwFMzGD");
+
+    const requestOptions = {
+        method: "GET",
+        headers: myHeaders,
+        redirect: "follow"
+    };
+
+    //giving up and using a proxy site 
+    const corsProxy = "https://cors-anywhere.herokuapp.com/"; 
+    const apiURL = "https://api.iucnredlist.org/api/v4/comprehensive_groups/birds";
+
+    try {
+        // adding the proxy to get arounf the cors 
+        const response = await fetch(corsProxy + apiURL, requestOptions);
+        
         if (!response.ok) {
             throw new Error(`ERROR: ${response.statusText}`);
         }
 
         const data = await response.json();
-
         const assessments = data.assessments;
 
-        if (Array.isArray(assessments)) {
+    //checkin if array 
+    if (Array.isArray(assessments)) {
 
-            // taking ids from the assessments part og the arry 
-            ALLbirdIds = assessments.map(assessment => assessment.assessment_id);
+        // taking ids from the assessments part og the arry 
+        ALLbirdIds = assessments.map(assessment => assessment.assessment_id);
 
-            //console.log('All Bird IDs:', ALLbirdIds);
+        //console.log('All Bird IDs:', ALLbirdIds);
 
-        } else {
-            throw new Error('Assessments is not an array or is missing.');
-        }
-    
-    } catch (error) 
-    { // gets error from else n dispkays in console
+    } else {
+        throw new Error('not array.');
+    }
+
+    } catch (error) {
         console.error(error);
     }
+       
+    
 }
 
 //tESTING ITTTTTT
